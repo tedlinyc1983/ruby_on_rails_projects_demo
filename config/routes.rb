@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :boards
   resources :people
   get "welcome/say_hello" => "welcome#say"
   # The priority is based upon order of creation: first created -> highest priority.

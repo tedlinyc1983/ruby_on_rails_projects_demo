@@ -45,3 +45,5 @@ group :development, :test do
   gem 'mysql2'
 end
 
+gem "mongo_mapper"
+gem 'bson_ext'
